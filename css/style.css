@@ -39,9 +39,17 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-right: 30px;
-}
-a {text-decoration: none;
+  margin-right: 25px;
 }
 
-a:hover {color:olive;}
+a:link, a:visited {
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: olive;
+}
