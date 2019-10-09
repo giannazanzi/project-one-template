@@ -1,1 +1,47 @@
-/* Enter your Styles below! */
+header, nav, main, footer{
+	width: 100%;
+	margin: 0 auto;
+}
+header {
+	background-image: url(https://ibb.co/xSxCZKV);
+	background-color: rgba(201, 252, 217, 0.5);
+	height: 120px;
+	font-family: forma-djr-deck, sans-serif;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration-color: solid-black;
+    display:grid;
+    grid-template-columns: 40% 60%;
+}
+
+h1 {
+	padding-top: 80px;
+	padding-left: 30px;
+	font-family: forma-djr-deck, sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration-color: solid-black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 80px;
+  text-align: right;
+  font-family: forma-djr-deck, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  text-decoration-color: solid-black;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 30px;
+}
+a {text-decoration: none;
+}
+
+a:hover {color:olive;}
