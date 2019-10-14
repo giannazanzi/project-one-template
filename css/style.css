@@ -53,3 +53,7 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: olive;
 }
+
+subpage-one.html {
+  grid-template-columns: 50% 50%
+}
