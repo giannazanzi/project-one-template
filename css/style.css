@@ -54,6 +54,19 @@ a:hover, a:active {
   background-color: olive;
 }
 
-subpage-one.html {
-  grid-template-columns: 50% 50%
+main {
+  display: grid;
+  grid-template-columns: 55% 45%; 
+  grid-gap: 10px;
+  font-family: freight-micro-pro, serif;
+  font-style: normal;
+  font-size: 14px;
+  text-decoration-color: solid black;
+  grid-auto-rows: 100px;
+  background-color: white;
 }
+
+.grid {
+  background-color: white;
+}
+
