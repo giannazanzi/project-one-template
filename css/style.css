@@ -56,6 +56,34 @@ a:hover, a:active {
 
 main {
   display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.main-center {
+  text-align: center;
+}
+
+.box-container {
+  position: relative;
+}
+
+.box-container p, .box-container {
+  background-color: white;
+  padding: 10px;
+}
+
+/*.round-box {
+  border-radius: 50% 50%;
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 20px;
+  left: -120px;
+}*/
+
+.main-one, .main-two, .main-three, .main-four {
+  display: grid;
   grid-template-columns: 55% 45%; 
   grid-gap: 10px;
   font-family: freight-micro-pro, serif;
@@ -63,10 +91,42 @@ main {
   font-size: 14px;
   text-decoration-color: solid black;
   grid-auto-rows: 100px;
-  background-color: white;
 }
 
-.grid {
-  background-color: white;
+.main-one {
+  background-image: url(https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/automotive-life/isetta-history/is-01-stage-hd.jpg.asset.1559637617288.jpg);
+  background-size: cover;
+}
+
+.main-two {
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/33395033494-9beefc8650-o-1518726570.jpg);
+  background-size: cover;
+}
+
+.main-three {
+  background-image: url(https://s.car.info/image_files/1920/fiat-600-multipla-front-side-0-305112.jpg);
+  background-size: cover;
+}
+
+.main-four {
+  background-image: url(https://i.pinimg.com/originals/6a/37/f5/6a37f5bc62555e43adc66c8b3b85543b.jpg);
+  background-size: cover;
+}
+
+.funkytype {
+  font-family: 'Le Murmure_Regular';
+    src:    url('Le_Murmure-Regular_web.eot');
+    src:    url('Le_Murmure-Regular_web.eot?#iefix') format('embedded-opentype'),
+            url('Le_Murmure-Regular_web.woff') format('woff'),
+            url('Le_Murmure-Regular_web.woff2') format('woff2'),
+            url('Le_Murmure-Regular_web.ttf') format('truetype'),
+            url('Le_Murmure-Regular_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-weight: 36px;
+}
+
+.main-one h2, .main-two h2, .main-three h2, .main-four h2,.colspan {
+  grid-column: 1 / -1;
 }
 
