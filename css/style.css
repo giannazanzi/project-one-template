@@ -59,6 +59,11 @@ main {
   grid-template-columns: 50% 50%;
 }
 
+.p1 {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
 .main-center {
   text-align: center;
 }
@@ -91,6 +96,7 @@ main {
   font-size: 14px;
   text-decoration-color: solid black;
   grid-auto-rows: 100px;
+  padding-top: 500px;
 }
 
 .main-one {
@@ -114,7 +120,7 @@ main {
 }
 
 .funkytype {
-  font-family: 'Le Murmure_Regular';
+  @font-face: 'Le Murmure_Regular';
     src:    url('Le_Murmure-Regular_web.eot');
     src:    url('Le_Murmure-Regular_web.eot?#iefix') format('embedded-opentype'),
             url('Le_Murmure-Regular_web.woff') format('woff'),
@@ -128,5 +134,23 @@ main {
 
 .main-one h2, .main-two h2, .main-three h2, .main-four h2,.colspan {
   grid-column: 1 / -1;
+}
+
+.main-center {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  padding: 75px;
+  padding-left: 600px;
+}
+
+h2 { 
+  font-family: forma-djr-deck, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  text-decoration-color: solid-black;
+  padding-left: 200px;
 }
 
