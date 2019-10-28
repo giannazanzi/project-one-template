@@ -42,7 +42,7 @@ nav li {
   margin-right: 25px;
 }
 
-a:link, a:visited {
+header a:link, header a:visited {
   color: black;
   padding: 10px 10px;
   text-align: center;
@@ -50,13 +50,18 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
+header a:hover, header a:active {
   background-color: olive;
 }
 
-main {
+main, .car-hover {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  width: auto;
+  align-content: center;
+  grid-column-gap: 150px;
+  grid-row-gap: -900px;
 }
 
 .p1 {
@@ -74,7 +79,7 @@ main {
 
 .box-container p, .box-container {
   background-color: white;
-  padding: 10px;
+  padding: 20px;
 }
 
 /*.round-box {
@@ -89,48 +94,30 @@ main {
 
 .main-one, .main-two, .main-three, .main-four {
   display: grid;
-  grid-template-columns: 55% 45%; 
-  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr; 
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
   font-family: freight-micro-pro, serif;
   font-style: normal;
   font-size: 14px;
   text-decoration-color: solid black;
-  grid-auto-rows: 100px;
-  padding-top: 500px;
+  line-height: 1.5;
+  padding-top: -30px;
 }
 
-.main-one {
-  background-image: url(https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/automotive-life/isetta-history/is-01-stage-hd.jpg.asset.1559637617288.jpg);
-  background-size: cover;
+.colspan {
+  text-align: center;
 }
 
-.main-two {
-  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/33395033494-9beefc8650-o-1518726570.jpg);
-  background-size: cover;
+.b-photo{
+  text-align: center;
+
 }
 
-.main-three {
-  background-image: url(https://s.car.info/image_files/1920/fiat-600-multipla-front-side-0-305112.jpg);
-  background-size: cover;
+.box-container {
+  padding: 15px;
 }
 
-.main-four {
-  background-image: url(https://i.pinimg.com/originals/6a/37/f5/6a37f5bc62555e43adc66c8b3b85543b.jpg);
-  background-size: cover;
-}
-
-.funkytype {
-  @font-face: 'Le Murmure_Regular';
-    src:    url('Le_Murmure-Regular_web.eot');
-    src:    url('Le_Murmure-Regular_web.eot?#iefix') format('embedded-opentype'),
-            url('Le_Murmure-Regular_web.woff') format('woff'),
-            url('Le_Murmure-Regular_web.woff2') format('woff2'),
-            url('Le_Murmure-Regular_web.ttf') format('truetype'),
-            url('Le_Murmure-Regular_web.svg#svgFontName') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-weight: 36px;
-}
 
 .main-one h2, .main-two h2, .main-three h2, .main-four h2,.colspan {
   grid-column: 1 / -1;
@@ -141,8 +128,6 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   justify-content: center;
-  padding: 75px;
-  padding-left: 600px;
 }
 
 h2 { 
@@ -152,5 +137,34 @@ h2 {
   font-size: 36px;
   text-decoration-color: solid-black;
   padding-left: 200px;
+}
+
+.car-hover img {width: 500px;}
+
+.tl-image, .tr-image, .bl-image, .br-image {
+  position: relative;
+  display: inline-block;
+}
+
+.tl-image:hover, .img-top, .tr-image:hover, .img-top, .bl-image:hover, .img-top, .br-image:hover, .img-top {
+  display: inline;
+    }
+
+.Standard {
+display: inline-block;
+}
+.tl-image:hover .Standard, .tr-image:hover .Standard, .bl-image:hover .Standard, .br-image:hover .Standard,{
+display: none;
+}
+
+.ShowOnHover {
+display: none;
+}
+.tl-image:hover .ShowOnHover, .tr-image:hover .ShowOnHover, .bl-image:hover .ShowOnHover, .br-image:hover .ShowOnHover{
+display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
 }
 

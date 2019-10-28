@@ -1,31 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>CSS Grid</title>
-	<style>
-
-		main { 
-			border: 1px solid black;
-			display: grid;
-			grid-template-columns: 33% 33% 33%; 
-			grid-gap: 10px;
-		}
-
-		div { border: 1px solid red; 
-			height: 100px;
-		}
-
-	</style>
+	<meta charset="UTF-8">
+	<title>The Microcar</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<!-- This is a special css library that overrides all the ugly default css styles that come with html5 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.typekit.net/lto2zri.css">
 </head>
 <body>
+	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
+	<header>
+		<!-- header, h1, logo etc content -->
+		<h1><a href="home.html">The Microcar</a></h1>
+		<nav>
+			<!-- Global naviagtion stuff here, but move this or delete this to your liking. Same goes for the rest -->
+			<ul>
+				<li><a href="subpage-one.html">BMW Isetta</a></li>
+				<li><a href="subpage-two.html">Subaru 360</a></li>
+				<li><a href="subpage-three.html">Fiat 600 Multipla</a></li>
+				<li><a href="subpage-four.html">Peel P50</a></li>
+			</ul>
+		</nav>
+	</header>
 	<main>
-		<div class="one"></div>
-		<div class="two"></div>
-		<div class="three"></div>
-		<div class="four"></div>
-		<div class="five"></div>
-		<div class="six"></div>
+		<section class="car-hover">
+				<div class="tl-image">
+					<a href="subpage-one.html">
+						<img class="Standard" style="width: 500px;" src="https://pbs.twimg.com/media/EH8FiKpUUAAhJsY?format=png&name=4096x4096" />
+						<img class="ShowOnHover" style="width: 500px;" src="https://pbs.twimg.com/media/EH8NKbbUcAAHNTK?format=png&name=4096x4096" />
+					</a></div>
+					<div class="tr-image">
+					<a href="subpage-two.html">
+						<img class="Standard" style="width: 500px;" src="https://pbs.twimg.com/media/EH8FiKpVAAIb35L?format=png&name=4096x4096" />
+						<img class="ShowOnHover" style="width: 500px;" src="https://pbs.twimg.com/media/EH8NKbbU0AEi7AJ?format=png&name=4096x4096" />
+					</a></div>
+					<div class="bl-image">
+					<a href="subpage-four.html">
+						<img class="Standard" style="width: 500px;" src="https://pbs.twimg.com/media/EH8FiKqUYAI-CCa?format=png&name=4096x4096" />
+						<img class="ShowOnHover" style="width: 500px;" src="https://pbs.twimg.com/media/EH8NKbaU8AAvFvm?format=png&name=4096x4096" />
+					</a></div>
+					<div class="br-image">
+					<a href="subpage-three.html">
+						<img class="Standard" style="width: 500px;" src="https://pbs.twimg.com/media/EH8FiKqUcAALQvO?format=png&name=4096x4096" />
+						<img class="ShowOnHover" style="width: 500px;" src="https://pbs.twimg.com/media/EH8NKbZUEAA37mT?format=png&name=4096x4096" />
+					</a></div>
+				</div>
+			</div>
+		</section>
 	</main>
-
+	<footer>
+		<!-- footer content here -->
+	</footer>
 </body>
 </html>
