@@ -1,27 +1,14 @@
-# Project One
-This is the template repository for the first major project in the Design 341 class at PSU.
+<!-- https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/automotive-life/isetta-history/is-01-stage-hd.jpg.asset.1559637617288.jpg
+	Image of BMW Isetta from the 1950s was from BMW's official website, and first posted in a section about the history of the Isetta.
 
-## To use this template:
+https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/33395033494-9beefc8650-o-1518726570.jpg
+	This image was uploaded to a secondary website from Alden Jewel's Flikr, which is how I was able to find it to use, and is a scan from a vintage, printed photo.
 
-1. Click the "Fork" button in the upper right corner of this repository.
+https://s.car.info/image_files/1920/fiat-600-multipla-front-side-0-305112.jpg
+	Uploaded by an anonymous profile, this image was pulled from Car.info, a website that pools together photos of the same model of car that are uploaded by individual users. The image itself is vintage from the 1950s, and was most-likely a scan of the original photo.
 
-2. Click on "Settings" and change the name to something better, like "project-one-four-poops", click the rename buton to save your changes.
-
-3. Open GitHub Desptop
-
-4. In the upper drop-down menu, choose: File > Clone Repository
-
-5. Mae sure the GitHub.com tab is highlighted with a blue underline
-
-6. click on the repository you just forked. If it doesn't show up, try searching for it in the filter field.
-
-7. Choose a Local Path or keep it at the default which goes to Documents/GitHub/ on your hard drive.
-
-8. Click the Clone button on the bottom to have GitHub Desktop fetch the files from GitHub.com and clone them to your hard drive.
-
-9. In the Upper drop down menu choose: Repository > Open in Sublime Text (or: Open in External Text Editor)
-
-10. Edit, save, commit, and push your files. Lather, rinse, repeat!
+https://i.pinimg.com/originals/6a/37/f5/6a37f5bc62555e43adc66c8b3b85543b.jpg
+	This image of a man and woman sitting, talking within the BBC, was sourced online from Wheelsage.com through Pinterest. Wheelsage is an online forum as well as automobile brand database, where folks can upload images of cars to discuss. This image was another scan of an original photo. 
 
 
 

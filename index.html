@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.typekit.net/lto2zri.css">
 	<link rel="shortcut icon" type="image/png" href="https://pbs.twimg.com/media/EH8NKbbUcAAHNTK?format=png&name=4096x4096"/>
+	<script type="text/javascript" src="sound-mouseover.js"></script>
 </head>
 <body>
 	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
@@ -30,28 +31,32 @@
 		<section class="car-hover">
 			<div class="tl-image">
 				<a href="subpage-one.html">
-					<img class="Standard" style="width: 500px;" src="https://pbs.twimg.com/media/EH8FiKpUUAAhJsY?format=png&name=4096x4096" alt="transparent BMW Isetta line drawing"/>
-					<img class="ShowOnHover" style="width: 500px;" src="https://pbs.twimg.com/media/EH8NKbbUcAAHNTK?format=png&name=4096x4096" alt="BMW Isetta line drawing with halftone"/>
-				</a></div>
-				<div class="tr-image">
-					<a href="subpage-two.html">
-						<img class="Standard" style="width: 500px;" src="https://pbs.twimg.com/media/EH8FiKpVAAIb35L?format=png&name=4096x4096" alt="transparent Subaru 360 line drawing"/>
-						<img class="ShowOnHover" style="width: 500px;" src="https://pbs.twimg.com/media/EH8NKbbU0AEi7AJ?format=png&name=4096x4096" alt="Subaru 360 line drawing with halftone"/>
+					<a href="subpage-one.html" onmouseover="playclip();"> <img class="Standard" style="width: 500px;" src="https://pbs.twimg.com/media/EH8FiKpUUAAhJsY?format=png&name=4096x4096" alt="transparent BMW Isetta line drawing"/>
+					<img class="ShowOnHover" style="width: 500px;" src="https://pbs.twimg.com/media/EH8NKbbUcAAHNTK?format=png&name=4096x4096" alt="BMW Isetta line drawing with halftone"/> 
 					</a></div>
-					<div class="bl-image">
-						<a href="subpage-four.html">
-							<img class="Standard" style="width: 500px;" src="https://pbs.twimg.com/media/EH8FiKqUYAI-CCa?format=png&name=4096x4096" alt="transparent Peel P50 line drawing"/>
-							<img class="ShowOnHover" style="width: 500px;" src="https://pbs.twimg.com/media/EH8NKbaU8AAvFvm?format=png&name=4096x4096" alt="Peel P50 line drawing with halftone"/>
-						</a></div>
-						<div class="br-image">
-							<a href="subpage-three.html">
-								<img class="Standard" style="width: 500px;" src="https://pbs.twimg.com/media/EH8FiKqUcAALQvO?format=png&name=4096x4096" alt="transparent Fiat 600 Multipla line drawing"/>
-								<img class="ShowOnHover" style="width: 500px;" src="https://pbs.twimg.com/media/EH8NKbZUEAA37mT?format=png&name=4096x4096" alt="Fiat 600 Multipla line drawing with halftone" />
-							</a></div>
-						</div>
-					</main>
-					<footer>
-						<!-- footer content here -->
-					</footer>
-				</body>
-				</html>
+					<div class="tr-image">
+								<a href="subpage-two.html">
+									<img class="Standard" style="width: 500px;" src="https://pbs.twimg.com/media/EH8FiKpVAAIb35L?format=png&name=4096x4096" alt="transparent Subaru 360 line drawing"/>
+									<img class="ShowOnHover" style="width: 500px;" src="https://pbs.twimg.com/media/EH8NKbbU0AEi7AJ?format=png&name=4096x4096" alt="Subaru 360 line drawing with halftone"/>
+								</a></div>
+								<div class="bl-image">
+									<a href="subpage-four.html">
+										<img class="Standard" style="width: 500px;" src="https://pbs.twimg.com/media/EH8FiKqUYAI-CCa?format=png&name=4096x4096" alt="transparent Peel P50 line drawing"/>
+										<img class="ShowOnHover" style="width: 500px;" src="https://pbs.twimg.com/media/EH8NKbaU8AAvFvm?format=png&name=4096x4096" alt="Peel P50 line drawing with halftone"/>
+									</a></div>
+									<div class="br-image">
+										<a href="subpage-three.html">
+											<img class="Standard" style="width: 500px;" src="https://pbs.twimg.com/media/EH8FiKqUcAALQvO?format=png&name=4096x4096" alt="transparent Fiat 600 Multipla line drawing"/>
+											<img class="ShowOnHover" style="width: 500px;" src="https://pbs.twimg.com/media/EH8NKbZUEAA37mT?format=png&name=4096x4096" alt="Fiat 600 Multipla line drawing with halftone" />
+										</a></div>
+									</div>
+									<audio>
+						<source src="startcar.mp3">
+					</audio>
+					<div id="sounddiv"><bgsound id="sound"></div>
+								</main>
+								<footer>
+									<!-- footer content here -->
+								</footer>
+							</body>
+							</html>
